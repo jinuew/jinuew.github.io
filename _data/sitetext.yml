@@ -108,7 +108,7 @@ en: &DEFAULT_EN
             icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://instagram.com/jinuew?igshid=OGQ5ZDc2ODk2ZA==
             icon: fab fa-linkedin-in
       - name: "Shin Jungin"
         role: "Department of Geography, Kyung Hee University"
@@ -118,18 +118,9 @@ en: &DEFAULT_EN
             icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://instagram.com/0130_in?igshid=MzRlODBiNWFlZA==
             icon: fab fa-linkedin-in
-      - name: "Who is next"
-        role: "next"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+
 
   contact:
     title: "Contact Us"

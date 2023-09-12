@@ -32,7 +32,7 @@ en: &DEFAULT_EN
         desc: "Providing efficiency indicators compared to the price of the tourist pass through the admission fee of each tourist destination"
         icon: fab fa-markdown
 
-  FINDING A WAY:
+  portpolio:
     title: "Finding a way"
     text: "I will recommend the best route according to the tourist attraction combination."
     section: FINDING A WAY
@@ -100,7 +100,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Park Jinwoo"
-        role: "Team Leader"
+        role: "Department of Geography, Kyung Hee University"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -110,7 +110,7 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Shin Jungin"
-        role: "Team Member"
+        role: "Department of Geography, Kyung Hee University"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com

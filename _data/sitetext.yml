@@ -22,19 +22,20 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "A directions service"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Recommendation of the best route according to the combination of tourist attractions
+        : Subway, Car"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "Time Efficiency Guide"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: "Providing an evaluation index by comparing travel time to tourist destination and stay time at tourist destination"
         icon: fas fa-laptop
       - title: "Cost Efficiency Guide"
-        desc: "Your description here, full **Markdown** support"
+        desc: "Providing efficiency indicators compared to the price of the tourist pass through the admission fee of each tourist destination"
         icon: fab fa-markdown
 
-  portfolio:
+  FINDING A WAY:
     title: "Finding a way"
     text: "I will recommend the best route according to the tourist attraction combination."
-    section: portfolio
+    section: FINDING A WAY
     closebutton: "Close Project"
 
   timeline:

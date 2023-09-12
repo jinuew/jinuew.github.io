@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
+    title: Welcome to our Service!
     text: We are Tourist Pass Service Helper
-    button: Tell Me More
+    button: More Information
     buttonlink: "#services"
 
   services:
@@ -71,9 +71,9 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Reasons for Service Development"
+    text: "Why?!"
+    body: "이유 쓰기~"
     section: about
 
   clients:

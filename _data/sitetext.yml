@@ -32,12 +32,12 @@ en: &DEFAULT_EN
         desc: "Providing efficiency indicators compared to the price of the tourist pass through the admission fee of each tourist destination"
         icon: fab fa-markdown
 
- portfolio:
+  portfolio:
     title: "Finding a way"
     text: "I will recommend the best route according to the tourist attraction combination."
     section: FINDING A WAY
     closebutton: "Close Project"  
-    
+
 
   timeline:
     title: "Timeline"

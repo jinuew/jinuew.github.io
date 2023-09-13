@@ -95,8 +95,8 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "TEAM Members"
+    text: "The developers of the service"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
@@ -124,7 +124,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Leave messages or call 010-6365-2801"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."

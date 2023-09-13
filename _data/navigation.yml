@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     - title: "Services"
       section: services
     - title: "Map service"
-      section: Map service
+      section: portfolio
     - title: "About"
       section: about
     - title: "Timeline"

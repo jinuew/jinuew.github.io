@@ -13,7 +13,7 @@ alt: image alt text
 ---
 Use this area to describe your project. **Markdown** supported.
 
-<iframe src="_portfolio/Kakao_map_Example.html" width="100%" height="500px"></iframe>
+<iframe src="/assets/Kakao_Map_Example.html" width="100%" height="500px"></iframe>
 
 optional info list (delete if not using):
 

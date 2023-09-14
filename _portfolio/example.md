@@ -2,12 +2,12 @@
 caption: #what displays in the portfolio grid:
   title: Map
   subtitle: the distribution of tourist attractions
-  thumbnail: https://jinuew.github.io/pjojectpass/
+  thumbnail: assets/img/team/사진.jpeg
   
 #what displays when the item is clicked:
 title: Map
 subtitle: the distribution of tourist attractions
-image: https://jinuew.github.io/pjojectpass/
+image: assets/img/team/사진.jpeg
 alt: image alt text
 
 ---

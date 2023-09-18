@@ -1,25 +1,25 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+caption: #what displays in the portfolio grid:
+  title: Map
+  subtitle: the distribution of tourist attractions
+  thumbnail: assets/img/team/지도.jpg
+  
+#what displays when the item is clicked:
+title: Map
+subtitle: the distribution of tourist attractions
+image: assets/img/team/지도.jpg
+alt: image alt text
 
-caption:
-  title: Threads
-  subtitle: Illustration
-  thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
 ---
+Use this area to describe your project. **Markdown** supported.
 
-Use this area to describe your project. **Markdown** supported. 
+<iframe src="/assets/Kakao_Map_Example.html" width="100%" height="500px"></iframe>
 
-<iframe src="/assets/Kakao2.html" width="100%" height="500px"></iframe>
+optional info list (delete if not using):
 
-This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-{:.list-inline}
-
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+{:.list-inline} 
+- Date: 
+- Client: 
+- Category: 
 
 

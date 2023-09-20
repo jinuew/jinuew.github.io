@@ -24,9 +24,6 @@ en: &DEFAULT_EN
     - title: "Contact"
       section: contact
     - title: "Discover Seoul Pass"
-      url: https://www.discoverseoulpass.com/app/main
-    - title: "Theme Source"
-      url: https://github.com/jinuew/jinuew.github.io
 en-US:
   <<: *DEFAULT_EN
 en-CA:

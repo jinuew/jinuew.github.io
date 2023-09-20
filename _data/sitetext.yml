@@ -140,15 +140,11 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/jinuew/jinuew.github.io
         icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://instagram.com/jinuew?igshid=OGQ5ZDc2ODk2ZA==
         icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN

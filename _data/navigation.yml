@@ -13,16 +13,18 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       section: services
-    - title: "Map service"
-      section: portfolio
     - title: "About"
       section: about
+    - title: "Map service"
+      section: portfolio
     - title: "Timeline"
       section: timeline
     - title: "Team"
       section: team
     - title: "Contact"
       section: contact
+    - title: "Discover Seoul Pass"
+      url: https://www.discoverseoulpass.com/app/main
     - title: "Theme Source"
       url: https://github.com/jinuew/jinuew.github.io
 en-US:

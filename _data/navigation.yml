@@ -24,6 +24,7 @@ en: &DEFAULT_EN
     - title: "Contact"
       section: contact
     - title: "Discover Seoul Pass"
+      url: https://www.discoverseoulpass.com/app/main
 en-US:
   <<: *DEFAULT_EN
 en-CA:

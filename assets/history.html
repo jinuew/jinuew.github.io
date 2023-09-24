@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kakao Map Example</title>
+<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=8a8af8d16dfcad6fed49baae9e2b0da8"></script>
+
+
+</head>
+<body>
+
+<h1>Distribution</h1>
+<div id="map" style="width:100%;height:350px;"></div>
+
+<script>
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+    mapOption = {
+        center: new kakao.maps.LatLng(37.5665, 126.9780), // 지도의 중심좌표
+        level: 7 // 지도의 확대 레벨
+    };
+
+var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+// 마커를 표시할 위치와 내용을 가지고 있는 객체 배열입니다 
+
+var positions = [
+    {
+        content: '<div>Gyeongbokgung Palace</div>', 
+        latlng: new kakao.maps.LatLng(37.57975395, 126.9766809)
+    },
+    {
+        content: '<div>Changdeokgung Palace</div>', 
+        latlng: new kakao.maps.LatLng(37.58238725, 126.9917013)
+    },
+    {
+        content: '<div>Deoksugung Palace</div>', 
+        latlng: new kakao.maps.LatLng(37.56616675, 126.9751703)
+    },
+    {
+        content: '<div>Changgyeonggung Palace</div>', 
+        latlng: new kakao.maps.LatLng(37.5802456, 126.9948331)
+    },
+    {
+        content: '<div>Jongmyo (Royal Shrine)</div>', 
+        latlng: new kakao.maps.LatLng(37.5747868, 126.9940152)
+    },
+    {
+        content: '<div>Seeolleung Royal Tombs</div>', 
+        latlng: new kakao.maps.LatLng(37.5051756, 127.0487082)
+    },
+    {
+        content: '<div>Jeongneung Royal Tombs</div>', 
+        latlng: new kakao.maps.LatLng(37.6018612, 127.006184)
+    },
+    {
+        content: '<div>Taereung Royal Tombs</div>', 
+        latlng: new kakao.maps.LatLng(37.6322513, 127.0975692)
+    },
+    {
+        content: '<div>Gangneung Royal Tombs</div>', 
+        latlng: new kakao.maps.LatLng(37.76452, 128.8993979)
+    },
+    {
+        content: '<div>Heolleung Royal Tombs</div>', 
+        latlng: new kakao.maps.LatLng(37.4660984, 127.0828681)
+    },
+    {
+        content: '<div>Illeung Royal Tombs</div>', 
+        latlng: new kakao.maps.LatLng(37.46536925, 127.0820682)
+    },
+    {
+        content: '<div>Uireung Royal Tombs</div>', 
+        latlng: new kakao.maps.LatLng(37.60362345, 127.0570979)
+    },
+    {
+        content: '<div>Jeongneung</div>', 
+        latlng: new kakao.maps.LatLng(37.6018612, 127.006184)
+    },
+    {
+        content: '<div>Seodaemun Prison History Hall</div>', 
+        latlng: new kakao.maps.LatLng(37.5741984, 126.956147)
+    },
+    {
+        content: '<div>National Gugak Center</div>', 
+        latlng: new kakao.maps.LatLng(37.4783408, 127.009048)
+    },
+    {
+        content: '<div>Gyeongju Expo Park</div>', 
+        latlng: new kakao.maps.LatLng(35.8330835, 129.2898692)
+    },
+    {
+        content: '<div>Korean Folk Village</div>', 
+        latlng: new kakao.maps.LatLng(37.2594792, 127.1210423)
+    },
+    {
+        content: '<div>Dosanseowon Neo-Confucian Academy</div>', 
+        latlng: new kakao.maps.LatLng(36.3440068, 127.3962125)
+    },
+    {
+        content: '<div>Cheongwadae Sarangchae</div>', 
+        latlng: new kakao.maps.LatLng(37.58249325, 126.9730939)
+    },
+    {
+        content: '<div>Yeonghwiwon Royal Tomb</div>', 
+        latlng: new kakao.maps.LatLng(37.5896517, 127.04297)
+    },
+    {
+        content: '<div>Buseoksa Temple</div>', 
+        latlng: new kakao.maps.LatLng(36.703958, 126.4121032)
+    },
+];
+
+
+
+for (var i = 0; i < positions.length; i ++) {
+    // 마커를 생성합니다
+    var marker = new kakao.maps.Marker({
+        map: map, // 마커를 표시할 지도
+        position: positions[i].latlng // 마커의 위치
+    });
+
+    // 마커에 표시할 인포윈도우를 생성합니다 
+    var infowindow = new kakao.maps.InfoWindow({
+        content: positions[i].content // 인포윈도우에 표시할 내용
+    });
+
+    // 마커에 mouseover 이벤트와 mouseout 이벤트를 등록합니다
+    kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map, marker, infowindow));
+    kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
+}
+
+// 인포윈도우를 표시하는 클로저를 만드는 함수입니다 
+function makeOverListener(map, marker, infowindow) {
+    return function() {
+        infowindow.open(map, marker);
+    };
+}
+
+// 인포윈도우를 닫는 클로저를 만드는 함수입니다 
+function makeOutListener(infowindow) {
+    return function() {
+        infowindow.close();
+    };
+}
+</script>
+</body>
+</html>

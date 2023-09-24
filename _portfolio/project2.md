@@ -1,19 +1,23 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+caption: #what displays in the portfolio grid:
+  title: Map
+  subtitle: the distribution of tourist attractions
+  thumbnail: assets/img/team/지도.jpg
+  
+#what displays when the item is clicked:
+title: Map
+subtitle: the distribution of tourist attractions
+image: assets/img/team/지도.jpg
+alt: image alt text
 
-caption:
-  title: Explore
-  subtitle: Graphic Design
-  thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-thumbnail.jpg
 ---
+Use this area to describe your project. **Markdown** supported.
 
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+<iframe src="/assets/museum.html" width="100%" height="500px"></iframe>
 
-{:.list-inline}
+optional info list (delete if not using):
 
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
+{:.list-inline} 
+- Date: 
+- Client: 
+- Category: 

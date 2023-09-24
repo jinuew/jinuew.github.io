@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Museum Map
-  subtitle: the distribution of tourist attractions
+  subtitle: the distribution of museum attractions
   thumbnail: assets/img/team/지도.jpg
   
 #what displays when the item is clicked:
 title: Museum Map
-subtitle: the distribution of tourist attractions
+subtitle: the distribution of museum attractions
 image: assets/img/team/지도.jpg
 alt: image alt text
 

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kakao Map Example</title>
+<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=8a8af8d16dfcad6fed49baae9e2b0da8"></script>
+
+
+</head>
+<body>
+
+<h1>Distribution</h1>
+<div id="map" style="width:100%;height:350px;"></div>
+
+<script>
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+    mapOption = {
+        center: new kakao.maps.LatLng(37.5665, 126.9780), // 지도의 중심좌표
+        level: 7 // 지도의 확대 레벨
+    };
+
+var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+// 마커를 표시할 위치와 내용을 가지고 있는 객체 배열입니다 
+
+var positions = [
+    {
+        content: '<div>Leeum Museum of Art</div>', 
+        latlng: new kakao.maps.LatLng(37.5383836, 126.999165)
+    },
+    {
+        content: '<div>Space K</div>', 
+        latlng: new kakao.maps.LatLng(37.5610159, 126.8310224)
+    },
+    {
+        content: '<div>Museum of Japanese Colonial History in Korea</div>', 
+        latlng: new kakao.maps.LatLng(37.54582725, 126.9669582)
+    },
+    {
+        content: '<div>Ilmin Museum of Art</div>', 
+        latlng: new kakao.maps.LatLng(37.5699354, 126.9775098)
+    },
+    {
+        content: '<div>Korean Museum of Straw and Life</div>', 
+        latlng: new kakao.maps.LatLng(37.584932, 126.999624)
+    },
+    {
+        content: '<div>Gyeomjae Jeongseon Art Museum</div>', 
+        latlng: new kakao.maps.LatLng(37.57224945, 126.8383975)
+    },
+    {
+        content: '<div>Bukchon Traditional Museum</div>', 
+        latlng: new kakao.maps.LatLng(37.5803146, 126.984741)
+    },
+    {
+        content: '<div>National Museum of Modern and Contemporary Art, Seoul</div>', 
+        latlng: new kakao.maps.LatLng(37.579494 126.980563)
+    },
+    {
+        content: '<div>Seoul Children's Museum</div>', 
+        latlng: new kakao.maps.LatLng(37.5507529, 127.0776369)
+    },
+    {
+        content: '<div>Eunpyeong History & Hanok Museum</div>', 
+        latlng: new kakao.maps.LatLng(37.6403854, 126.938036)
+    },
+    {
+        content: '<div>Seoul K-Medi Center</div>', 
+        latlng: new kakao.maps.LatLng(37.5806436, 127.03761)
+    },
+    {
+        content: '<div>PRESSEUM</div>', 
+        latlng: new kakao.maps.LatLng(37.5696761, 126.9775785)
+    },
+    {
+        content: '<div>Hwanghakjeong Korean Archery Gallery</div>', 
+        latlng: new kakao.maps.LatLng(37.5778232, 126.96424)
+    },
+    {
+        content: '<div>Colorpool Museum</div>', 
+        latlng: new kakao.maps.LatLng(37.5744761, 126.983814)
+    },
+    {
+        content: '<div>Alive Museum</div>', 
+        latlng: new kakao.maps.LatLng(37.5718997, 126.98724)
+    },
+    {
+        content: '<div>Figure Museum W</div>', 
+        latlng: new kakao.maps.LatLng(37.5257813, 127.040366)
+    },
+    {
+        content: '<div>Seoul Science Center</div>', 
+        latlng: new kakao.maps.LatLng(37.5822528, 126.996933)
+    },
+    {
+        content: '<div>Nadonggang National Institute of Biological Resources</div>', 
+        latlng: new kakao.maps.LatLng(36.4447045, 128.2554417)
+    },
+    {
+        content: '<div>Homigot Tourist Area (New Millennium Memorial Hall)</div>', 
+        latlng: new kakao.maps.LatLng(36.0770149, 129.565582)
+    },
+    {
+        content: '<div>Sangju Museum</div>', 
+        latlng: new kakao.maps.LatLng(36.458698, 128.240808)
+    },
+    {
+        content: '<div>Sangju Bicycle Museum</div>', 
+        latlng: new kakao.maps.LatLng(36.4532374, 128.255058)
+    },
+    {
+        content: '<div>Gahoe Museum</div>', 
+        latlng: new kakao.maps.LatLng(37.5814589, 126.985216)
+    },
+    {
+        content: '<div>THE GREEM</div>', 
+        latlng: new kakao.maps.LatLng(37.528532, 127.496967)
+    },
+    {
+        content: '<div>Seoul Battleship Park</div>', 
+        latlng: new kakao.maps.LatLng(37.5535557, 126.897459)
+    },
+    {
+        content: '<div>Museum Kimchikan</div>', 
+        latlng: new kakao.maps.LatLng(37.5735121, 126.984821)
+    },
+    {
+        content: '<div>Ttukseom Museum</div>', 
+        latlng: new kakao.maps.LatLng(37.5471232, 127.0484409)
+    },
+];
+
+
+
+for (var i = 0; i < positions.length; i ++) {
+    // 마커를 생성합니다
+    var marker = new kakao.maps.Marker({
+        map: map, // 마커를 표시할 지도
+        position: positions[i].latlng // 마커의 위치
+    });
+
+    // 마커에 표시할 인포윈도우를 생성합니다 
+    var infowindow = new kakao.maps.InfoWindow({
+        content: positions[i].content // 인포윈도우에 표시할 내용
+    });
+
+    // 마커에 mouseover 이벤트와 mouseout 이벤트를 등록합니다
+    kakao.maps.event.addListener(marker, 'mouseover', makeOverListener(map, marker, infowindow));
+    kakao.maps.event.addListener(marker, 'mouseout', makeOutListener(infowindow));
+}
+
+// 인포윈도우를 표시하는 클로저를 만드는 함수입니다 
+function makeOverListener(map, marker, infowindow) {
+    return function() {
+        infowindow.open(map, marker);
+    };
+}
+
+// 인포윈도우를 닫는 클로저를 만드는 함수입니다 
+function makeOutListener(infowindow) {
+    return function() {
+        infowindow.close();
+    };
+}
+</script>
+</body>
+</html>

@@ -9,7 +9,6 @@ title: Museum Map
 
 
 ---
-Use this area to describe your project. **Markdown** supported.
 
 <iframe src="/assets/exam.html" width="100%" height="500px"></iframe>
 

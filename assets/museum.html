@@ -166,40 +166,6 @@ function makeOutListener(infowindow) {
 }
 
     
- if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function(position) {
-            var lat = position.coords.latitude,
-                lon = position.coords.longitude;
-            var locPosition = new kakao.maps.LatLng(lat, lon),
-                message = '<div style="padding:5px;">Your Location Now</div>';
-            displayMarker(locPosition, message);
-        });
-    } else {
-        var locPosition = new kakao.maps.LatLng(33.450701, 126.570667),    
-            message = 'geolocation을 사용할수 없어요..'
-        displayMarker(locPosition, message);
-    }
-
-    function displayMarker(locPosition, message) {
-        var gps_content = '<div><img class="pulse" draggable="false" unselectable="on" src="https://ssl.pstatic.net/static/maps/m/pin_rd.png" alt=""></div>';
-        var currentOverlay = new kakao.maps.CustomOverlay({
-            position: locPosition,
-            content: gps_content,
-            map: map
-        });
-
-        var iwContent = message, 
-            iwRemoveable = true;
-
-        var infowindow = new kakao.maps.InfoWindow({
-            content : iwContent,
-            removable : iwRemoveable
-        });
-        
-        infowindow.open(map, currentOverlay);
-
-        map.setCenter(locPosition);      
-    }  
 
 
 

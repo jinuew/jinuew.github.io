@@ -10,7 +10,7 @@ title: Museum Map
 
 ---
 
-<iframe src="/assets/exam.html" width="100%" height="500px"></iframe>
+<iframe src="/assets/proj0.html" width="100%" height="500px"></iframe>
 
 optional info list (delete if not using):
 

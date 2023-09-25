@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Entertainment & Experience Map
+  title: example(markter+attraction)
   subtitle: the distribution of entertainment & experience attractions
   thumbnail: assets/img/team/지도.jpg
   

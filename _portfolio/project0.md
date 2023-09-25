@@ -1,12 +1,11 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: example(markter+attraction)
-  subtitle: the distribution of entertainment & experience attractions
+  title: Museum Map
+  subtitle: the distribution of museum attractions
   thumbnail: assets/img/team/지도.jpg
   
 #what displays when the item is clicked:
-title: Entertainment & Experience Map
-subtitle: the distribution of entertainment & experience attractions
+title: Museum Map
 
 
 ---

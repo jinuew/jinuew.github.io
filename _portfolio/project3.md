@@ -7,8 +7,7 @@ caption: #what displays in the portfolio grid:
 #what displays when the item is clicked:
 title: Entertainment & Experience Map
 subtitle: the distribution of entertainment & experience attractions
-image: assets/img/team/지도.jpg
-alt: image alt text
+
 
 ---
 Use this area to describe your project. **Markdown** supported.

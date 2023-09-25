@@ -12,7 +12,7 @@ subtitle: the distribution of entertainment & experience attractions
 ---
 Use this area to describe your project. **Markdown** supported.
 
-<iframe src="/assets/entertainment.html" width="100%" height="500px"></iframe>
+<iframe src="/assets/proj2.html" width="100%" height="500px"></iframe>
 
 optional info list (delete if not using):
 

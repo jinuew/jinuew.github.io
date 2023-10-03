@@ -48,9 +48,10 @@ en: &DEFAULT_EN
     events:
       - title: "Tourist Map"
         year: "Service A, B, C"
-        desc: "Acquire tourist spot data \
-Geocode the tourist data(Nominatim, Geopy) \
-Map creation(Kakao API)"
+        desc: >
+          Acquire tourist spot data
+          Geocode the tourist data(Nominatim, Geopy)
+          Map creation(Kakao API)
 
         image: assets/img/timeline/1.jpg
         alt:

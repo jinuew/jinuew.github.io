@@ -54,7 +54,7 @@ en: &DEFAULT_EN
         alt:
       - title: "Your Location"
         year: "Service D"
-        desc: "1.Extract current location(Kakao API)   2.Provide nearby commercial area(Kakao API)"
+        desc: "1.Extract current location(Geolocation API)   2.Provide nearby commercial area(Kakao API)"
         image: assets/img/timeline/2.jpg
         alt:
       - title: "Jekyll Theme is created"

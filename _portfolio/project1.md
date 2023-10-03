@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: History Map
+  title: B. History Map
   subtitle: the distribution of historic attractions
   thumbnail: assets/img/team/지도.jpg
   

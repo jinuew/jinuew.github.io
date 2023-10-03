@@ -48,15 +48,17 @@ en: &DEFAULT_EN
     events:
       - title: "Tourist Map"
         year: "Service A, B, C"
-        desc: "Acquire toruist spot data
+        desc: | 
+        Acquire toruist spot data
         Geocode the toruist data((Nominatim, Geopy)
-        Map creation(Kakao API)"
+        Map creation(Kakao API)
         image: assets/img/timeline/1.jpg
         alt:
       - title: "Your Location"
         year: "Service D"
-        desc: "Extract current location(Kakao API)
-        Provide nearby commercial area "
+        desc: |
+        Extract current location(Kakao API)
+        Provide nearby commercial area(Kakao API)
         image: assets/img/timeline/2.jpg
         alt:
       - title: "Jekyll Theme is created"

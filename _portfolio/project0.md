@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Museum Map
+  title: A. Museum Map
   subtitle: the distribution of museum attractions
   thumbnail: assets/img/team/지도.jpg
   

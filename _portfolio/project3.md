@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Entertainment & Experience Map
-  subtitle: the distribution of entertainment & experience attractions
+  title: Your Location
+  subtitle: Provide information about your location and the nearby commercial district.
   thumbnail: assets/img/team/지도.jpg
   
 #what displays when the item is clicked:
-title: Entertainment & Experience Map
-subtitle: the distribution of entertainment & experience attractions
+title: Your Location
+subtitle: Provide information about your location and the nearby commercial district.
 
 
 ---

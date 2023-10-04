@@ -7,7 +7,7 @@ caption: #what displays in the portfolio grid:
 #what displays when the item is clicked:
 title: History Map
 subtitle: the distribution of historic attractions
-image: assets/img/team/지도.jpg
+image: assets/img/team/history.png
 alt: image alt text
 
 ---

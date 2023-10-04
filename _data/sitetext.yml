@@ -24,7 +24,7 @@ en: &DEFAULT_EN
       - title: "A directions service"
         desc: "Recommendation of the best route according to the combination of tourist attractions
         : Subway, Car"
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        icon: <i class="fa-regular fa-route" style="color: #ffffff;"></i> #find more at https://fontawesome.com/icons
       - title: "Time Efficiency Guide"
         desc: "Providing an evaluation index by comparing travel time to tourist destination and stay time at tourist destination"
         icon: fas fa-laptop

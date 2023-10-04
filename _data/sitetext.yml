@@ -24,13 +24,13 @@ en: &DEFAULT_EN
       - title: "A directions service"
         desc: "Recommendation of the best route according to the combination of tourist attractions
         : Subway, Car"
-        icon: <i class="fa-solid fa-route" style="color: #ffffff;"></i> #find more at https://fontawesome.com/icons
+        icon: fas fa-route
       - title: "Time Efficiency Guide"
         desc: "Providing an evaluation index by comparing travel time to tourist destination and stay time at tourist destination"
-        icon: fas fa-laptop
+        icon: fas fa-stopwatch
       - title: "Cost Efficiency Guide"
         desc: "Providing efficiency indicators compared to the price of the tourist pass through the admission fee of each tourist destination"
-        icon: fab fa-markdown
+        icon: fas fa-magnifying-glass-dollar
     
   portfolio:
     title: "Finding a way"

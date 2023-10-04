@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: C. Entertainment & Experience Map
   subtitle: the distribution of entertainment & experience attractions
-  thumbnail: assets/img/team/지도.jpg
+  thumbnail: assets/img/team/activity.png
   
 #what displays when the item is clicked:
 title: Entertainment & Experience Map

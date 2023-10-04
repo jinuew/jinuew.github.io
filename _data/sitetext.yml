@@ -30,7 +30,7 @@ en: &DEFAULT_EN
         icon: fas fa-stopwatch
       - title: "Cost Efficiency Guide"
         desc: "Providing efficiency indicators compared to the price of the tourist pass through the admission fee of each tourist destination"
-        icon: fas fa-magnifying-glass-dollar
+        icon: fas fa-wallet
     
   portfolio:
     title: "Finding a way"

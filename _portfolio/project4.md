@@ -1,6 +1,6 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: D. Your Location
+  title: E. Route Service
   subtitle: Provide information about your location and the nearby commercial district.
   thumbnail: assets/img/team/지도.jpg
   

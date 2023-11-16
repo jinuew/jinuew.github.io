@@ -12,7 +12,7 @@ subtitle: Provide information about your location and the nearby commercial dist
 ---
 Use this area to describe your project. **Markdown** supported.
 
-<iframe src="/assets/route.html" width="100%" height="500px"></iframe>
+<iframe src="/assets/route.html" width="200%" height="500px"></iframe>
 
 optional info list (delete if not using):
 

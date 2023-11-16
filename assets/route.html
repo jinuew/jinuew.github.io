@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kakao Map Example</title>
+<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=8a8af8d16dfcad6fed49baae9e2b0da8"></script>
+<style>
+    .dropdown-menu {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+
+<h1>Distribution</h1>
+
+<!-- Dropdown for Departure -->
+<label for="departure">Departure:</label>
+<select id="departure" class="dropdown-menu">
+    <!-- Options will be added here -->
+</select>
+
+<!-- Dropdown for Waypoints -->
+<label for="waypoints">Waypoints:</label>
+<select id="waypoints" class="dropdown-menu" multiple>
+    <!-- Options will be added here -->
+</select>
+
+<!-- Dropdown for Destination -->
+<label for="destination">Destination:</label>
+<select id="destination" class="dropdown-menu">
+    <!-- Options will be added here -->
+</select>
+
+<div id="map" style="width:100%;height:350px;"></div>
+
+<script>
+    // Array of tourist places
+    var touristPlaces = [
+        "Seoul E-Land FC",
+        "COEX Aquarium",
+        "63 Square",
+        "Lotte World Adventure"
+        // Add more places here
+    ];
+
+    // Function to populate dropdowns
+    function populateDropdowns() {
+        var departureDropdown = document.getElementById('departure');
+        var waypointsDropdown = document.getElementById('waypoints');
+        var destinationDropdown = document.getElementById('destination');
+
+        touristPlaces.forEach(function(place) {
+            var option = document.createElement('option');
+            option.value = place;
+            option.text = place;
+            departureDropdown.add(option.cloneNode(true)); // Add to departure
+            waypointsDropdown.add(option.cloneNode(true)); // Add to waypoints
+            destinationDropdown.add(option.cloneNode(true)); // Add to destination
+        });
+    }
+
+    // Call the function to populate dropdowns
+    populateDropdowns();
+
+    // Initialize Kakao Map
+    var mapContainer = document.getElementById('map'),
+        mapOption = {
+            center: new kakao.maps.LatLng(37.5665, 126.9780),
+            level: 3
+        }; 
+
+    var map = new kakao.maps.Map(mapContainer, mapOption);
+
+</script>
+</body>
+</html>

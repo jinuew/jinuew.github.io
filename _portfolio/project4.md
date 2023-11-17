@@ -1,12 +1,12 @@
 ---
 caption: #what displays in the portfolio grid:
   title: E. Route Service
-  subtitle: Provide information about your location and the nearby commercial district.
+  subtitle: Provides the order of visit and the route for a combination of tourist sites.
   thumbnail: assets/img/team/지도.jpg
   
 #what displays when the item is clicked:
-title: Your Location
-subtitle: Provide information about your location and the nearby commercial district.
+title: Route Service
+subtitle: Provides the order of visit and the route for a combination of tourist sites.
 
 
 ---

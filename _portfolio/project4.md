@@ -10,8 +10,7 @@ subtitle: Provides the order of visit and the route for a combination of tourist
 
 
 ---
-Use this area to describe your project. **Markdown** supported.
-
+The "departure" point is fixed, but the order of visiting 'waypoints' and 'waypoint2' is arranged according to the optimal route."
 <iframe src="/assets/exampleRoute6.html" width="100%" height="500px"></iframe>
 
 optional info list (delete if not using):

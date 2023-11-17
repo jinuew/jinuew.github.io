@@ -24,15 +24,15 @@
     <!-- Options will be added here -->
 </select>
 
-<!-- Dropdown for Waypoints -->
-<label for="waypoints">Waypoints:</label>
-<select id="waypoints" class="dropdown-menu">
+<!-- Dropdown for Waypoint1 -->
+<label for="waypoint1">Waypoints:</label>
+<select id="waypoint1" class="dropdown-menu">
     <!-- Options will be added here -->
 </select>
 
-<!-- Dropdown for Destination -->
-<label for="destination">Destination:</label>
-<select id="destination" class="dropdown-menu">
+<!-- Dropdown for Waypoint2 -->
+<label for="waypoint2">Waypoint2:</label>
+<select id="waypoint2" class="dropdown-menu">
     <!-- Options will be added here -->
 </select>
 
@@ -47,23 +47,38 @@
         "Seoul E-Land FC",
         "COEX Aquarium",
         "63 Square",
-        "Lotte World Adventure"
-        // Add more places here
+        "Lotte World Adventure",
+        "N Seoul Tower",
+        "E Cruise",
+        "Lotte World Tower Seoul Sky",
+        "Mokdong Icerink",
+        "Ohui & Whoo Spa",
+        "Gyeongbokgung Palace",
+        "Deoksugung Palace",
+        "Jongmyo (Royal Shrine)",
+        "Seeolleung & Jeongneung Royal Tombs",
+        "Seodaemun Prison History Hall",
+        "Leeum Museum of Art",
+        "Museum of Japanese Colonial History in Korea",
+        "Bukchon Traditional Museum",
+        "National Museum of Modern and Contemporary Art, Seoul",
+        "Seoul Science Center",
+        "Cheongwadae Sarangchae"
     ];
 
     // Function to populate dropdowns
     function populateDropdowns() {
         var departureDropdown = document.getElementById('departure');
-        var waypointsDropdown = document.getElementById('waypoints');
-        var destinationDropdown = document.getElementById('destination');
+        var waypoint1Dropdown = document.getElementById('waypoint1');
+        var waypoint2Dropdown = document.getElementById('waypoint2');
 
         touristPlaces.forEach(function(place) {
             var option = document.createElement('option');
             option.value = place;
             option.text = place;
             departureDropdown.add(option.cloneNode(true)); // Add to departure
-            waypointsDropdown.add(option.cloneNode(true)); // Add to waypoints
-            destinationDropdown.add(option.cloneNode(true)); // Add to destination
+            waypoint1Dropdown.add(option.cloneNode(true)); // Add to waypoint1
+            waypoint2Dropdown.add(option.cloneNode(true)); // Add to waypoint2
         });
     }
 

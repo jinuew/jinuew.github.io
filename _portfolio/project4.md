@@ -10,7 +10,7 @@ subtitle: Provides the order of visit and the route for a combination of tourist
 
 
 ---
-The "departure" point is fixed, but the order of visiting 'waypoints' and 'waypoint2' is arranged according to the optimal route."
+"The departure point is fixed as the first order, but the visiting order of 'waypoints' and 'waypoint2' is arranged according to the optimal route. For example, even if you choose the order as Coex Aquarium - E Cruise - Lotte World Adventure, you may receive a route recommendation in the order of Coex Aquarium - Lotte World Adventure - E Cruise, based on the efficiency of movement."
 <iframe src="/assets/exampleRoute6.html" width="100%" height="500px"></iframe>
 
 optional info list (delete if not using):

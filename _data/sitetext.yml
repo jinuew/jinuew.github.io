@@ -31,6 +31,13 @@ en: &DEFAULT_EN
       - title: "Cost Efficiency Guide"
         desc: "Providing efficiency indicators compared to the price of the tourist pass through the admission fee of each tourist destination"
         icon: fas fa-wallet
+
+  about:
+    title: "Reasons for Service Development"
+    text: "Why?!"
+    body: "While traveling abroad, I noticed that many tourists, including myself, were paying more for tourist passes than the individual entry fees at various attractions. This observation led me to develop a service aimed at helping foreigners use tourist passes more efficiently. Drawing from my own experience where I found the lack of helpful information about tourist sites, I leveraged my GIS and programming skills to create a user-friendly web service. This service aims to optimize the value and convenience of tourist passes for international travelers."
+    section: about
+
     
   portfolio:
     title: "Finding a way"
@@ -49,33 +56,31 @@ en: &DEFAULT_EN
       - title: "Tourist Map"
         year: "Service A, B, C"
         desc: "1.Acquire tourist spot data   2.Geocode the tourist data(Nominatim, Geopy)   3.Map creation(Kakao API)"
-
         image: assets/img/timeline/1.jpg
         alt:
+        
       - title: "Your Location"
         year: "Service D"
         desc: "1.Extract current location(Geolocation API)   2.Provide nearby commercial area(Kakao API)"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+        
+      - title: "Find Route"
+        year: "Service E"
+        desc: "1. Creating a line string(Python) 2. Converting line string data to Json format(Python) 3. Connecting Json data to a map(Java, Kakao API)"
+        image: assets/img/timeline/json.png
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
+        
+      - title: "Service F"
+        year: "Soon"
         desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Service Development Completed!"
 
-  about:
-    title: "Reasons for Service Development"
-    text: "Why?!"
-    body: "이유 쓰기~"
-    section: about
+
 
   clients:
     section: clients

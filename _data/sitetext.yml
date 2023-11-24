@@ -67,7 +67,7 @@ en: &DEFAULT_EN
         
       - title: "Find Route"
         year: "Service E"
-        desc: "1. Creating a line string(Python) 2. Converting line string data to Json format(Python) 3. Connecting Json data to a map(Java, Kakao API)"
+        desc: "1.Creating a line string(Python)    2.Converting line string data to Json format(Python)    3.Connecting Json data to a map(Java, Kakao API)"
         image: assets/img/timeline/json.png
         alt: image alt text
         

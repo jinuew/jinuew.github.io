@@ -1,5 +1,7 @@
 # 외국인 관광 패스 도움 웹 서비스(디스커버 서울패스)
 
+프로젝트 기간: 2023년 7월~ 2023년 11월(5개월)
+
 ## Preview
 
 ![image](https://github.com/jinuew/jinuew.github.io/assets/141210846/064f742a-a713-41a1-b657-487fa7ed8128)

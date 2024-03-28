@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: E. Route Service
   subtitle: Provides the order of visit and the route for a combination of tourist sites.
-  thumbnail: assets/img/team/지도.jpg
+  thumbnail: assets/img/team/route.png
   
 #what displays when the item is clicked:
 title: Route Service

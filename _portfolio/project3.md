@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: D. Your Location
   subtitle: Provide information about your location and the nearby commercial district.
-  thumbnail: assets/img/team/지도.jpg
+  thumbnail: assets/img/team/LBS.png
   
 #what displays when the item is clicked:
 title: Your Location

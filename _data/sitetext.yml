@@ -55,7 +55,7 @@ en: &DEFAULT_EN
     events:
       - title: "Tourist Map"
         year: "Service A, B, C"
-        desc: |
+        desc:|
           1. Acquire tourist spot data
           2. Geocode the tourist data
           3. Map creation
@@ -65,7 +65,7 @@ en: &DEFAULT_EN
         
       - title: "Your Location"
         year: "Service D"
-        desc: | 
+        desc:| 
           1. Extract current location
           2. Provide nearby commercial area
         image: assets/img/timeline/2.jpg

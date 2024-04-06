@@ -56,9 +56,10 @@ en: &DEFAULT_EN
       - title: "Tourist Map"
         year: "Service A, B, C"
         desc: |
-          1.Acquire tourist spot data
-          2.Geocode the tourist data(Nominatim, Geopy)
-          3.Map creation(Kakao API)
+          1. Acquire tourist spot data
+          2. Geocode the tourist data (Nominatim, Geopy)
+          3. Map creation (Kakao API)
+
         image: assets/img/timeline/1.jpg
         alt:
         

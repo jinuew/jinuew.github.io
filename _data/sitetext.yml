@@ -56,22 +56,27 @@ en: &DEFAULT_EN
       - title: "Tourist Map"
         year: "Service A, B, C"
         desc: |
-          1. Acquire tourist spot data
-          2. Geocode the tourist data (Nominatim, Geopy)
-          3. Map creation (Kakao API)
+          1.Acquire tourist spot data
+          2.Geocode the tourist data
+          3.Map creation
 
         image: assets/img/timeline/1.jpg
         alt:
         
       - title: "Your Location"
         year: "Service D"
-        desc: "1.Extract current location(Geolocation API)   2.Provide nearby commercial area(Kakao API)"
+        desc: | 
+        1.Extract current location
+        2.Provide nearby commercial area
         image: assets/img/timeline/2.jpg
         alt:
         
       - title: "Find Route"
         year: "Service E"
-        desc: "1.Creating a line string(Python)    2.Converting line string data to Json format(Python)    3.Connecting Json data to a map(Java, Kakao API)"
+        desc: |
+        1.Creating a line string
+        2.Converting line string data to Json format
+        3.Connecting Json data to a map
         image: assets/img/timeline/json.png
         alt: image alt text
         

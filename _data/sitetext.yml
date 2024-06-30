@@ -116,7 +116,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Park Jinwoo"
-        role: "Department of Geography, Kyung Hee University"
+        role: "Department of Geography"
         image: assets/img/team/박진우.jpg
         social:
           - url: https://twitter.com
